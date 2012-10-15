@@ -1,0 +1,13 @@
+{
+  "name": "graceful-exit",
+  "version": "0.0.0",
+  "description": "Gracefully exit your node process (e.g., wait for network connections to close)",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "main": "lib/graceful-exit.js",
+  "devDependencies": {
+    "assert-called": "0.1.x"
+  },
+  "scripts": {
+    "test": "node test/server-test.js && node test/connection-test.js"
+  }
+}
